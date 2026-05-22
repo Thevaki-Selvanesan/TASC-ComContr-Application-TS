@@ -1,2 +1,5 @@
 # TASC-ComContr-Application-TS
+
+NOTE: The publisher and subscriber codes are in the my_robot_controller folder
+
 The type of data I chose to send was heart rate numbers. In clinical robotics systems, this type of data is sensing data, and can be used to measure the heart rate of a patient. The publisher node generates random heart rate values to simulate what a real sensor would continuously send to a robotic system. The subscriber node then reads these values and flags them as either normal or dangerous depending on whether they fall outside the 60 to 100 BPM range. In a real clinical robotics system, this kind of monitoring could be used to pause a surgical robot or alert medical staff if a patient's heart rate becomes abnormal during a procedure.
